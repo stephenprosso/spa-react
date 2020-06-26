@@ -38,6 +38,11 @@ nav {
     background-color: white;
     color: black;
     transition: all 0.3s ease-in-out;
+
+}
+.nav-menu_link.active{
+    background-color: lightgray;
+
 }
 
 .nav-menu_link:hover {

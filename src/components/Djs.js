@@ -1,21 +1,27 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { ArtistList } from '../data/artists';
+const Djs = (props) => {
 
-export class djs extends Component {
-    render(props) {
+    let djs = ArtistList.map((person) => {
         return (
-            <div className="main-content">
-            <div className="container">
-                <h2>{this.props.title}</h2>
-                <div className=""></div>
-                <div className="">
-                    <div className=""></div>
-                    <div className=""></div>
-                    <div className=""></div>
+            <div>
+                <div className="artist-container">
+                    <a>
+                        <div className="actor-image"></div>
+                    </a>
+                    <h3>{person.name}</h3>
                 </div>
             </div>
-        </div>
-        )
-    }
-}
+        );
+    });
+    return (
+        <div className="main-content">
+            <div className="container">
+                <h2>{this.props.title}</h2>
 
-export default djs
+            </div>
+        </div>
+    );
+};
+
+export default Djs
