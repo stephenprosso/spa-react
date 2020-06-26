@@ -48,7 +48,68 @@ nav {
 }
 
 .logo-link {
-
     color: white;
     text-decoration: none;
+}
+.main-content {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.main-content h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+/* .container{
+    display: flex;
+    transition: all 0.3s ease-in-out;
+} */
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3cY1CFg9UozZ9idlx9TmVyjkhVXxYueBTdrXOyKMjTZoISfavtvw81h4L6aduORCeGD5-u9nbzqNJeQW1NLLGyWFxmPubE3JtiSxTGe2uY1BBxHbeDKnZBYBlRHiiz_AAyaJgDns6jMPYqWb781OXL4=w600-h400-no?authuser=0);
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+ 
+}
+.home-image:hover {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/592e2fb/2147483647/strip/true/crop/2048x1151+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd2%2F7b%2F13eaff18a44af548bff49ffe872c%2Fsd-1543949878-c8airpye8r-snap-image);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+ 
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.home-thumbnail-1 {
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3dmvk2-twP3sj6lktsZjBD_5wPZ3iZyfSkkpPk7w-D57ggoDH3j3NwZMVC_yC_MmlccpvmK8iePJbeo27HyOJJALh7KEPyCLAvrrp6clWIII21oLbA-A82G7R_qoRVqI_P5e_ioMXcv3w9l2YOJ1S_o=w948-h534-no?authuser=0);
+}
+.home-thumbnail-2 {
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3fHekQ6OBOdqAc5kZOzEfbW-9wDlBA8G3cpfUmu5jK7krt-YyUJsjo58qryX8DjfixBgEtzHQc5ZP5TKelowPI_qiYlZ-cgawVlau-eWvHvbHwIzXJHli3MCokjwwJq-A7Ya-sImY061uhADNF-MG8w=w600-h400-no?authuser=0);
+}
+.home-thumbnail-3 {
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3cmC1YMm9v_uQHy3ebI6ZX0FtjNYiUswu75fP7NA2hVJpIBoyFrlzFc5oH1S80ioUOOi8z9nOyPqJQdR29kzUl50KssT1NgYUKiciE0MS-tqlsqsquhWufwl1gPzByvfDDhqgLXrOPjYU3_jsIjjF7G=w768-h440-no?authuser=0);
 }
