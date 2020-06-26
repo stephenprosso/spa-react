@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-export class djs extends Component {
-    render(props) {
+export class Technodjs extends Component {
+    render() {
         return (
             <div className="main-content">
             <div className="container">
@@ -18,4 +18,4 @@ export class djs extends Component {
     }
 }
 
-export default djs
+export default Technodjs
