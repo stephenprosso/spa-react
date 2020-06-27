@@ -17,7 +17,7 @@ const Djs = (props) => {
     return (
         <div className="main-content">
             <div className="container">
-                <h2>{this.props.title}</h2>
+                <h2>{props.title}</h2>
 
             </div>
         </div>
