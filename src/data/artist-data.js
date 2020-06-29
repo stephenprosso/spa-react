@@ -5,10 +5,7 @@ export const ArtistList = [
         description: "Richie Gets down like a Eruo from out of town",
         img_src: "https://www.gstatic.com/tv/thumb/persons/945067/945067_v9_ba.jpg",
         profile_img: "https://www.gstatic.com/tv/thumb/persons/945067/945067_v9_ba.jpg",
-        url: "Richard Haughteen"
-
-
-    
+        url: "Richard Haughteen"   
     },
     {
         name: "Nina Kravitz",

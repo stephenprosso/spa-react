@@ -1,9 +1,9 @@
 import React from 'react'
 import { ArtistList } from '../data/artist-data';
 import { Link } from 'react-router-dom';
-const Djs = (props) => {
+const Artists = (props) => {
 
-    let djs = ArtistList.map((person) => {
+    let artists = ArtistList.map((person) => {
         return (
 
             <div className="artist-container">
@@ -19,11 +19,11 @@ const Djs = (props) => {
             <div><Link className="back" to="/">Back</Link></div>
             <h2>{props.title}</h2>
             <div className="dj-container">
-                {djs}
+                {artists}
 
             </div>
         </div>
     );
 };
 
-export default Djs
+export default Artists
