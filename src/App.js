@@ -4,10 +4,9 @@ import './css/style.css';
 import Navbar from './components/navbar';
 import Home from './components/Home';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Djs from './components/Djs';
-import Artists from './components/Djs';
+
+import Artists from './components/Artists';
 import Events from './components/Events';
-import Technodjs from './components/Technodjs';
 class App extends Component {
   render() {
     return (
@@ -16,10 +15,9 @@ class App extends Component {
           {/* Stephen Rosskito "El Taco Mundo" */}
          <Navbar title="Crssd Fest Artists" />
          <Route exact path="/" render={() => <Home title="Resident Artists"/>}/>
-         <Route path="/Djs" render={() => <Djs title="Artists"/>}/>
+        
          <Route path="/Artists" render={() => <Artists title="Featured Artists"/>}/>
          <Route path="/Events" render={() => <Events title="Events"/>}/>
-         <Route path="/Technodjs" render={() => <Technodjs title="Techno DJs"/>}/>
          {/* route WITHOUT passing props */}
          {/* <Route to="/" component={Home}/> */}
          {/* <Route to="/Djs" component={Djs}/>}/> */}
