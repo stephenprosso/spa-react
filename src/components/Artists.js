@@ -5,12 +5,13 @@ const Artists = (props) => {
 
     let artists = ArtistList.map((person) => {
         return (
-
-            <div className="artist-container">
-                <a>
-                    <div className="actor-image" style={{ backgroundImage: "url(" + person.img_src + ")" }}></div>
-                </a>
-                <h3>{person.name}</h3>
+            <div>
+                <div className="artist-container">
+                    <Link to={`/artists/${person.url}`}>
+                        <div className="actor-image" style={{ backgroundImage: "url(" + person.img_src + ")" }}></div>
+                    </Link>
+                    <h3>{person.name}</h3>
+                </div>
             </div>
         );
     });

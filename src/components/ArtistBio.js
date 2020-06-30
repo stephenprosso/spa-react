@@ -6,12 +6,13 @@ const ArtistBio = (props) => {
 
     return (
         <div className="main-content">
-            <div><Link className="back" to="/">Back</Link></div>
+            <div><Link className="back" to="/Artists">Back</Link></div>
             <h2>{props.title}</h2>
             <div className="container">
-                <div className="image-profile"></div>
-                <h2>{props.titleName}</h2>
-                <p>{props.descrip}</p>
+                {/* the prop you access below needs to match the name of the prop passed in the function */}
+                <div className="image-profile" style={{ backgroundImage: "url(" + props.image + ")"}}></div>
+                <h2>{props.name}</h2>
+                <p>{props.details}</p>
 
 
             </div>

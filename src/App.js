@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-
 import './css/style.css';
 import Navbar from './components/navbar';
 import Home from './components/Home';
 import { BrowserRouter, Route } from 'react-router-dom';
-
-import Artists from './components/Artists';
+import ArtistContainer from './components/ArtistContainer';
 import Events from './components/Events';
 class App extends Component {
   render() {
@@ -15,8 +13,7 @@ class App extends Component {
           {/* Stephen Rosskito "El Taco Mundo" */}
          <Navbar title="Crssd Fest Artists" />
          <Route exact path="/" render={() => <Home title="Resident Artists"/>}/>
-        
-         <Route path="/Artists" render={() => <Artists title="Featured Artists"/>}/>
+         <Route path="/Artists" render={() => <ArtistContainer title="Featured Artists"/>}/>
          <Route path="/Events" render={() => <Events title="Events"/>}/>
          {/* route WITHOUT passing props */}
          {/* <Route to="/" component={Home}/> */}
