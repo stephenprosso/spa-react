@@ -15,7 +15,7 @@ const ArtistContainer = (props) => {
     });
     return (
         <div>
-            <Route exact path="/Artists" render={() => <Artists title="Artists" />} />
+            <Route exact path="/Artists" render={() => <Artists title="Previous Artists" />} />
             {artistUrl}
         </div>
     );

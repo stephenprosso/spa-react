@@ -75,7 +75,7 @@ nav {
 .home-image {
     width: 100%;
     height: 500px;
-    background-image: url(https://image-ticketfly.imgix.net/00/01/20/90/57-og.jpg?w=500&h=334&fit=crop&crop=top);
+    background-image: url(https://i0.wp.com/www.passtheaux.co/wp-content/uploads/2016/12/crssd.jpg?resize=752%2C440);
     background-size: cover;
     margin-bottom: 50px;
     transition: all 0.3s ease-in-out;
@@ -84,7 +84,7 @@ nav {
 .home-image:hover {
     width: 100%;
     height: 500px;
-    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3cY1CFg9UozZ9idlx9TmVyjkhVXxYueBTdrXOyKMjTZoISfavtvw81h4L6aduORCeGD5-u9nbzqNJeQW1NLLGyWFxmPubE3JtiSxTGe2uY1BBxHbeDKnZBYBlRHiiz_AAyaJgDns6jMPYqWb781OXL4=w600-h400-no?authuser=0);
+    background-image: url(https://i0.wp.com/www.passtheaux.co/wp-content/uploads/2016/12/crssd.jpg?resize=752%2C440);
     transform: scale(1.01);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -109,15 +109,15 @@ nav {
 }
 
 .home-thumbnail-1 {
-    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/4a6e454/2147483647/strip/true/crop/1024x683+0+0/resize/1024x683!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2b%2F0e%2Fbb4c4ad48722ad2791b8c3bfa41c%2Fpac-crssd-3-4-17-web-5315);
+    background-image: url(https://www.musicinminnesota.com/wp-content/uploads/2019/02/CRSSD-1r.jpg);
 }
 
 .home-thumbnail-2 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEecGREkxfkxnbBls3Yx_NyiuXBwBGyjK7TQ&usqp=CAU);
+    background-image: url(https://thesightsandsounds.com/wp-content/uploads/2017/10/CRSSDTOBER20172017_0930_143354-6573_FLG-e1507740892455.jpg);
 }
 
 .home-thumbnail-3 {
-    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/c04e14a/2147483647/strip/true/crop/1920x1280+0+0/resize/1680x1120!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcd%2Fe3%2Fe5ea152f4a05b9e29053335788da%2Flee-k-chris-stolis.jpg);
+    background-image: url(https://edm.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY0NTM1OTIzMzQ4ODc0NTkz/crssdmarch2019_0303_143817-6446_flg.jpg);
 }
 
 .dj-container {
