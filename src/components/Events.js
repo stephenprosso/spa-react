@@ -37,53 +37,14 @@ class Events extends Component {
        if (isLoading) return <div>Loading.....</div>;
    
        let invoices = allInvoices.map((invoice) => (
-         <tr key={invoice.Id}>
-           <td>{invoice.Vendor}</td>
-           <td>{invoice.Amount}</td>
-           <td>{invoice.Invoice}</td>
-           <td>{invoice.Date}</td>
-           <td>
-             <Button
-               className="btn btn-lg btn-success"
-               onClick={() => this.remove(invoice.Id)}
-             >
-               <FontAwesomeIcon icon={faThumbsUp} /> Ok{" "}
-             </Button>
-           </td>
-           <td>
-             <Button
-               className="btn btn-lg btn-danger"
-               onClick={() => this.remove(invoice.Id)}
-             >
-               <FontAwesomeIcon icon={faThumbsDown} /> N-ok{" "}
-             </Button>
-           </td>
-           <td>
-             <Button
-               className="btn btn-lg btn-info"
-               onClick={() => this.remove(invoice.Id)}
-             >
-               <FontAwesomeIcon icon={faMoneyCheck} /> 50%{" "}
-             </Button>
-           </td>
-           <td>
-             <Button
-               className="btn btn-lg btn-warning"
-               onClick={() => this.remove(invoice.Id)}
-             >
-               {" "}
-               <FontAwesomeIcon icon={faSearchDollar} /> ??{" "}
-             </Button>
-           </td>
-           <td>
-             <Button
-               className="btn btn-lg btn-info"
-               onClick={() => this.remove(invoice.Id)}
-             >
-               {" "}
-               <FontAwesomeIcon icon={faImage} /> Image
-             </Button>
-           </td>
+         <tr key={invoice.RecordId}>
+           <td>{invoice.fname}</td>
+           <td>{invoice.lname}</td>
+           <td>{invoice.credType}</td>
+           <td>{invoice.org}</td>
+           <td>{invoice.time}</td>
+           <td>{invoice.checkedin}</td>
+           <td>{invoice.EventId}</td>
          </tr>
        ));
    
@@ -99,12 +60,13 @@ class Events extends Component {
                <Table dark responsive striped bordered hover>
                  <thead>
                    <tr>
-                     <th>Vendor</th>
-                     <th>Amount</th>
-                     <th>Invoice #</th>
-                     <th>Date</th>
-                     <th colSpan="4">Action</th>
-                     <th>Image</th>
+                     <th>ID</th>
+                     <th>First</th>
+                     <th>Last</th>
+                     <th>Cred Type</th>
+                     <th>Time</th>
+                     <th>Check In</th>
+                     <th>Event Id</th>
                    </tr>
                  </thead>
                  <tbody>
